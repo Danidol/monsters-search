@@ -1,0 +1,29 @@
+.footer {
+  background-color: rgb(32, 28, 28);
+  padding: 20px 0;
+}
+
+.footer a {
+  color: rgb(251, 253, 106);
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+button {
+  float: left;
+  margin-left: 30px;
+  padding: 5px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #fbfd6a;
+  color: rgb(32, 28, 28);
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:active {
+  background-color: #d9dc03;
+}

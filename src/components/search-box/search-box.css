@@ -1,0 +1,17 @@
+.search-box {
+  padding: 10px;
+  margin: 30px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: rgb(246, 255, 125);
+  font-size: 1rem;
+  color: rgb(180, 39, 39);
+}
+
+.search-box:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: rgb(180, 39, 39);
+}
