@@ -6,10 +6,12 @@
   background-color: rgb(246, 255, 125);
   font-size: 1rem;
   color: rgb(180, 39, 39);
+  transition: all 0.3s;
 }
 
 .search-box:focus {
   outline: none;
+  background-color: rgb(252, 255, 185);
 }
 
 ::placeholder {
